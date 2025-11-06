@@ -1,0 +1,16 @@
+{
+    "modes": [
+        {
+            "name": "red",
+            "cost": 1.0,
+            "events": "books_red.jsonl.zst",
+            "weights": "lookUpTable_red_0.csv"
+        },
+        {
+            "name": "blue",
+            "cost": 1.0,
+            "events": "books_blue.jsonl.zst",
+            "weights": "lookUpTable_blue_0.csv"
+        }
+    ]
+}

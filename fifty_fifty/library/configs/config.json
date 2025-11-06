@@ -1,0 +1,68 @@
+{
+    "workingName": "fifty_fifty",
+    "frontendConfig": {
+        "file": "fe_config.json",
+        "sha256": "e73a7082d364bb510bdabd0f10749dd23c8efa05437f0c9bb903b98a59e41e97"
+    },
+    "gameID": "fifty_fifty",
+    "rtp": 96.5,
+    "betDenomination": 1000,
+    "minDenomination": 10,
+    "providerNumber": 1,
+    "standardForceFile": {
+        "file": "force.json",
+        "sha256": "be0427c65956f35e725e9d4c49f512c5bd8b2c2f7d7d094a350351ec54ba82ab"
+    },
+    "bookShelfConfig": [
+        {
+            "name": "red",
+            "tables": [
+                {
+                    "file": "lookUpTable_red_0.csv",
+                    "sha256": "5ecbfbe264bc280004ad767f209445f9462b17c8a7e17d1df1855cc16b7eaab5"
+                }
+            ],
+            "cost": 1.0,
+            "rtp": 0.965,
+            "std": 1.0,
+            "bookLength": 10000,
+            "feature": true,
+            "autoEndRoundDisabled": false,
+            "buyBonus": false,
+            "maxWin": 2,
+            "booksFile": {
+                "file": "books_red.jsonl.zst",
+                "sha256": "c097cfade41bbe8e39be8fd9911b61dcf181a316833a9cda1a71735c99225274"
+            },
+            "forceFile": {
+                "file": "force_record_red.json",
+                "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            }
+        },
+        {
+            "name": "blue",
+            "tables": [
+                {
+                    "file": "lookUpTable_blue_0.csv",
+                    "sha256": "5ecbfbe264bc280004ad767f209445f9462b17c8a7e17d1df1855cc16b7eaab5"
+                }
+            ],
+            "cost": 1.0,
+            "rtp": 0.965,
+            "std": 1.0,
+            "bookLength": 10000,
+            "feature": true,
+            "autoEndRoundDisabled": false,
+            "buyBonus": false,
+            "maxWin": 2,
+            "booksFile": {
+                "file": "books_blue.jsonl.zst",
+                "sha256": "54f993d53fc17d074e6a896c496bfe6022b92f3bcd89a2f198fc253557628f94"
+            },
+            "forceFile": {
+                "file": "force_record_blue.json",
+                "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            }
+        }
+    ]
+}

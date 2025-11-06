@@ -1,0 +1,11 @@
+{
+    "winInfo": {
+        "type": "winInfo",
+        "choice": "red",
+        "totalWin": 0
+    },
+    "finalWin": {
+        "type": "finalWin",
+        "amount": 0
+    }
+}

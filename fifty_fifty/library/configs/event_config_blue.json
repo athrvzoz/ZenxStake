@@ -1,0 +1,10 @@
+{
+    "winInfo": {
+        "type": "winInfo",
+        "totalWin": 0
+    },
+    "finalWin": {
+        "type": "finalWin",
+        "amount": 0
+    }
+}
